@@ -1,0 +1,12 @@
+D:\MINTIC\WebAPI\WebApp\WebApp\bin\Debug\WebApp.exe.config
+D:\MINTIC\WebAPI\WebApp\WebApp\bin\Debug\WebApp.exe
+D:\MINTIC\WebAPI\WebApp\WebApp\bin\Debug\WebApp.pdb
+D:\MINTIC\WebAPI\WebApp\WebApp\obj\Debug\WebApp.csproj.AssemblyReference.cache
+D:\MINTIC\WebAPI\WebApp\WebApp\obj\Debug\WebApp.Form1.resources
+D:\MINTIC\WebAPI\WebApp\WebApp\obj\Debug\WebApp.Properties.Resources.resources
+D:\MINTIC\WebAPI\WebApp\WebApp\obj\Debug\WebApp.csproj.GenerateResource.cache
+D:\MINTIC\WebAPI\WebApp\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
+D:\MINTIC\WebAPI\WebApp\WebApp\obj\Debug\WebApp.exe
+D:\MINTIC\WebAPI\WebApp\WebApp\obj\Debug\WebApp.pdb
+D:\MINTIC\WebAPI\WebApp\WebApp\bin\Debug\Newtonsoft.Json.dll
+D:\MINTIC\WebAPI\WebApp\WebApp\bin\Debug\Newtonsoft.Json.xml
