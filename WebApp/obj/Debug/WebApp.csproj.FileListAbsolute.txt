@@ -10,3 +10,16 @@ D:\MINTIC\WebAPI\WebApp\WebApp\obj\Debug\WebApp.exe
 D:\MINTIC\WebAPI\WebApp\WebApp\obj\Debug\WebApp.pdb
 D:\MINTIC\WebAPI\WebApp\WebApp\bin\Debug\Newtonsoft.Json.dll
 D:\MINTIC\WebAPI\WebApp\WebApp\bin\Debug\Newtonsoft.Json.xml
+D:\GitHub Repositories\WebApi\WebApp\bin\Debug\WebApp.exe.config
+D:\GitHub Repositories\WebApi\WebApp\bin\Debug\WebApp.exe
+D:\GitHub Repositories\WebApi\WebApp\bin\Debug\WebApp.pdb
+D:\GitHub Repositories\WebApi\WebApp\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub Repositories\WebApi\WebApp\bin\Debug\Newtonsoft.Json.xml
+D:\GitHub Repositories\WebApi\WebApp\obj\Debug\WebApp.csproj.AssemblyReference.cache
+D:\GitHub Repositories\WebApi\WebApp\obj\Debug\WebApp.Form1.resources
+D:\GitHub Repositories\WebApi\WebApp\obj\Debug\WebApp.Properties.Resources.resources
+D:\GitHub Repositories\WebApi\WebApp\obj\Debug\WebApp.csproj.GenerateResource.cache
+D:\GitHub Repositories\WebApi\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
+D:\GitHub Repositories\WebApi\WebApp\obj\Debug\WebApp.csproj.CopyComplete
+D:\GitHub Repositories\WebApi\WebApp\obj\Debug\WebApp.exe
+D:\GitHub Repositories\WebApi\WebApp\obj\Debug\WebApp.pdb

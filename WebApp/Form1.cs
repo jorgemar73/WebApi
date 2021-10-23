@@ -21,8 +21,8 @@ namespace WebApp
         public Form1()
         {
             InitializeComponent();
-            getWeather("Paris");
-            getNews("Paris");
+            //getWeather("Paris");
+            //getNews("Paris");
             
         }
 
@@ -53,15 +53,24 @@ namespace WebApp
                 string url = string.Format("https://newsapi.org/v2/everything?q={0}&language=en&apiKey={1}", city, APPKEY);
 
                 var json = web.DownloadString(url);
+                //var result = JsonConvert.DeserializeObject<NewsInfo.articles>(json);
+                NewsInfo.data articles = JsonConvert.DeserializeObject<NewsInfo.data>(json);
 
-                var result = JsonConvert.DeserializeObject<NewsInfo.articles>(json);
+                label7.Text = string.Format("{0}", articles.articles[0].author);
+                label5.Text = string.Format("{0}", articles.articles[0].title);
+                label6.Text = string.Format("{0}", articles.articles[0].description);
+                label8.Text = string.Format("{0}", articles.articles[0].content);
 
-                NewsInfo.articles outPut = result;
+                //foreach (NewsInfo.articles article in articles.articles)
+                //{
+                //    label7.Text = string.Format("{0}", article.author);
+                //}
+                //NewsInfo.articles outPut = result;
 
-                label7.Text = string.Format("{0}", outPut.author);
-                label5.Text = string.Format("{0}", outPut.title);
-                label6.Text = string.Format("{0}", outPut.description);
-                label8.Text = string.Format("{0}", outPut.content);
+                //label7.Text = string.Format("{0}", outPut.author);
+                //label5.Text = string.Format("{0}", outPut.title);
+                //label6.Text = string.Format("{0}", outPut.description);
+                //label8.Text = string.Format("{0}", outPut.content);
 
             }
         }
@@ -75,9 +84,9 @@ namespace WebApp
 
         private void btnConsultar_City(object sender, EventArgs e)
         {
-            
-
-
+            Console.WriteLine(textBox1.Text + " Ha sido consultada");
+            getWeather(textBox1.Text);
+            getNews(textBox1.Text);
         }
     }
 }

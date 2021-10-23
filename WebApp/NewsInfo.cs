@@ -8,6 +8,13 @@ namespace WebApp
 {
     class NewsInfo
     {
+        public class data
+        {
+            public string status { get; set; }
+            public string totalResults { get; set; }
+            public List<articles> articles { get; set; }
+    }
+
         public class articles
         {
             public source source { get; set; }
@@ -21,6 +28,7 @@ namespace WebApp
 
         public class source
         {
+            public string id { get; set; }
             public string name { get; set; }
         }
 
